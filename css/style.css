@@ -1,0 +1,127 @@
+/******************************** global variabale */
+.container{
+   width: 85% !important;
+   margin-left: 120px !important;
+}
+.container img{
+   border-radius: 10px;
+}
+.container .layer{
+   border-radius: 10px;
+   
+}
+.cp {
+   cursor: pointer !important;
+}
+.lh {
+   line-height: 0 !important;
+}
+.z-top {
+   z-index: 99999 !important;
+}
+ul {
+   list-style: none;
+   color: #fff;
+   padding-left: 0;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+body {
+   background-color: #000;
+   width: 100%;
+   height: 100%;
+}
+
+/******************************** end */
+
+/******************************** navbar */
+ .active{
+   color:#fdce11e8
+}
+
+navSide {
+   min-height: 100vh;
+   position: fixed;
+   z-index: 9999;
+   left: -240px;
+   top: 0;
+   background-color: #000;
+}
+.navSide-data {
+   width: 240px;
+}
+.navSide-links {
+   overflow: hidden;
+   height: 320px;
+}
+.navSide-links li {
+   padding-top: 500px;
+   cursor: pointer;
+}
+.navSide-links li:hover {
+   color:#fdce11e8
+}
+
+navSide .right-icons {
+   padding: 10px;
+}
+navSide img {
+   width: 50px;
+}
+
+/******************************** end */
+
+/******************************** content */
+
+#searchTitle::placeholder{
+   color:#fdce11c0
+}
+#searchName::placeholder{
+   color:#fdce11c0
+}
+
+.content .form-control,
+.content .form-control:focus {
+background-color: transparent;
+   
+}
+.item {
+   overflow: hidden;
+}
+.layer {
+   top: 200%;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+}
+.item:hover .layer {
+   top: 0;
+   transition-duration: 1s;
+}
+/******************************** end */
+
+/******************************** start contact */
+form .form-control,
+form .form-control:focus {
+   background-color: white !important;
+ 
+  
+   border-bottom: 1px solid #fff;
+ 
+  
+   color: black !important;;
+   text-align: left !important;
+}
+.succes {
+    border-bottom: 1px solid rgb(19, 226, 12) !important;
+}
+.error {
+    border-bottom: 1px solid rgb(236, 47, 13) !important;
+}
+/******************************** end */
+
